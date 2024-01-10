@@ -1,0 +1,44 @@
+.wrapper {
+    width: 100%;
+    user-select: none;
+    /* height: 1000px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.favBlock {
+    width: 1000px;
+}
+
+.titleCategory {
+    text-align: left;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 15px;
+    color: #929292;
+    margin-top: 5px;
+}
+
+.movieWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 210px);
+    gap: 30px 53px;
+    min-height: 130px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.errorMes {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 35px;
+    text-align: center;
+}

@@ -1,0 +1,108 @@
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    cursor: pointer;
+    margin: 10px 0 0 10px;
+}
+
+.wrapper {
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.wrapper img {
+    width: 100%;
+    position: fixed;
+    opacity: 0.3;
+}
+
+.info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    max-width: 550px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoForm {
+    width: 300px;
+    margin-top: 10px;
+}
+
+.infoInput {
+    font-family: inherit;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    background-color: #414141;
+    box-shadow: 0px 0px 50px #141414;
+    border: none;
+    border-radius: 10px;
+}
+
+.infoInput::placeholder {
+    color: #fff;
+}
+
+.infoInput:focus {
+    outline: none;
+}
+
+.errorInput {
+    border: 1px solid rgb(255, 70, 70);
+  }
+  
+.error {
+    font-size: 15px;
+    color: rgb(255, 70, 70);
+    margin: 0;
+    margin-top: 4px;
+    text-align: center;
+  }
+
+.infoBtn {
+    font-family: inherit;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    background-color: #0049B1;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color .2s ease-in-out;
+}
+
+.infoBtn:hover {
+    background-color: #0059d6;
+}
+
+.infoBtn:disabled {
+    background-color: #565656;
+    cursor: initial;
+}
+
+.crossBtn {
+    position: absolute;
+    color: #bcbaba;
+    font-size: 60px;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: color .2s ease;
+  }
+  
+  .crossBtn:hover {
+    color: #fff;
+  }

@@ -1,0 +1,49 @@
+.wrapper {
+    user-select: none;
+    min-width: 1210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.watchNow {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+    position: relative;
+}
+
+.imgBlock {
+    margin-top: 15px;
+    min-width: 1000px;
+    height: 450px;
+    border-radius: 20px;
+    background: url('../../../public/images/watchNow.jpg'), lightgray 50%;
+    background-size: cover;
+    box-shadow: 200px 0 34px 0px rgba(0, 0, 0, 0.4) inset;
+}
+
+.btnWatch {
+    bottom: 30px;
+    left: 40px;
+    position: absolute;
+    border: none;
+    border-radius: 12px;
+    font-family: inherit;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #f91b1b;
+    box-shadow: 0 4px 0 #f76a6a;
+    padding: 9px 11px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.btnWatch:hover {
+    /* background-color: #f71a1a; */
+    transform: translateY(5px);
+    box-shadow: none;
+}
+
